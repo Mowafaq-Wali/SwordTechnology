@@ -1,0 +1,83 @@
+.ourteam-sec {
+    padding: 30px 0;
+    position: relative;
+}
+
+.ourteam-sec .section-header {
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.ourteam-sec .section-header h2 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.our-team {
+    padding: 20px 15px 30px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 9px 9px 8px #666666;
+}
+
+.our-team .pic {
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 25px;
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .pic {
+    background: linear-gradient(to right, #002695, #0066DC, #06D8F7);
+    border-radius: 50%;
+}
+
+.our-team .pic img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.our-team .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+
+.our-team .job {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #06D8F7;
+    text-transform: capitalize;
+}
+
+.our-team .social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.our-team .social li a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    color: #06D8F7;
+    font-size: 18px;
+    border: 1px solid #06D8F7;
+    border-radius: 50%;
+    width: 41px;
+    height: 42px;
+    margin-left: 2px;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social li a {
+    background: linear-gradient(to right, #002695, #0066DC, #06D8F7);
+    color: #fff;
+}

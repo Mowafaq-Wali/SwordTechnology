@@ -1,0 +1,279 @@
+@import url('../css/footerShared.css');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif, "Poppins";
+}
+
+/*style of about section in home page*/
+.about-us {
+    margin-top: 0px;
+    position: relative;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.about-us .container {
+    background-color: #FAFAFA;
+    border: 2px solid #fff;
+    border-radius: 20px;
+
+}
+
+.about-text .about-buttom {
+    background-color: transparent;
+    padding: 13px 18px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: .5s;
+    border: 2px solid #4fa1c9;
+}
+
+.about-text .about-buttom a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    padding: 12px;
+    transition: .5s;
+}
+
+.about-text .about-buttom:hover {
+    background: linear-gradient(to top, #002695, #0066DC, #06D8F7);
+}
+
+.about-text .about-buttom:hover a {
+    color: #fff;
+}
+
+.about-us .about-text {
+    margin-top: 100px;
+}
+
+.about-us .about-text .about-title {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.about-us .about-text p {
+    font-size: 2rem;
+}
+
+.about-us img {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 60%;
+    border: 5px solid #E9E9E9;
+    margin-left: 120px;
+
+}
+
+@media only screen and (min-width:768px) and (max-width:912px) {
+    .about-us img {
+        border: 2px solid #fff;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-left: 130px;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:414px) {
+    .about-us img {
+        border: 2px solid #fff;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+}
+
+/*end the style of about in home page */
+
+
+/* start the style of about us page */
+.aboutPage-navbar {
+    position: sticky;
+}
+
+.aboutPage-navbar .nav-item .nav-link {
+    height: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 80px;
+    transition: 0.2s;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.about {
+    position: relative;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backToHome-nav {
+    position: relative;
+    padding: 11px 8px;
+    background: #000;
+    border: 1px solid #e0dddd;
+    -webkit-box-shadow: 1px 1px 0 rgb(255 255 255 / 90%) inset;
+    box-shadow: 1px 1px 0rgba(255, 255, 255, .9) inset;
+    font-size: 13px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    margin-left: 250px;
+    height: 45px;
+}
+
+.backToHome-nav ul li {
+    padding: 0 2px;
+    font-size: 13px;
+    color: #fff;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.backToHome-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.backToHome-nav ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+@media only screen and (min-width:280px) and (max-width:540px) {
+    .backToHome-nav {
+        max-width: 94%;
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .backToHome-nav {
+        max-width: 94%;
+        margin-left: 20px;
+    }
+}
+
+
+.sec-header .about-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.about-bottom {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px 2px;
+    margin-bottom: 30px;
+}
+
+.about-bottom p {
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.ourAchivement_box i {
+    color: #06D8F7;
+    margin-bottom: 20px;
+}
+
+.ourAchivement_box p,
+span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.choice_us .sec-header .sec-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.choice_us .sec-header {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.sec-headline {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 4.5rem;
+    text-transform: uppercase;
+}
+
+.banefit-card {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: .4s all;
+    margin-bottom: 3rem;
+    height: 21rem;
+    border: 1px solid #000000;
+}
+
+.banefit-card:hover {
+    box-shadow: 0 0 30px rgb(0 0 0 / 18%);
+}
+
+.banefit-card .icon-block {
+    min-width: 7.4rem;
+    min-height: 7.4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    color: #06D8F7;
+    margin-bottom: 2rem;
+    background-color: #EFF2F7;
+    font-weight: bold;
+}
+
+.goto_Contact {
+    background: #000;
+    padding: 40px 0;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.goto_Contact .contact-link a {
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.goto_Contact .contact-link a:hover {
+    background-color: #06D8F7;
+    border: 2px solid #fff;
+}

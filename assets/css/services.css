@@ -1,0 +1,91 @@
+.services-detalis {
+    padding: 60px 0;
+}
+
+.services-detalis .row {
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+}
+
+.mt-frontend .services-detalis .services-text h3 {
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.services-detalis .services-text p {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #666666;
+    line-height: 2.6rem;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.services-detalis .service-custom-bg {
+    background-image: url('../images/servicesdetalisBg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.services-detalis .service-custom-bg img {
+    margin-left: 80px;
+}
+
+.services-detalis .services-detalis-whiteBg {
+    background-color: #fff;
+}
+
+.services-detalis .discover-btn {
+    padding-bottom: 20px;
+}
+
+.services-detalis .discover-btn a {
+    background: transparent;
+    padding: 3rem 2rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    border: 1px solid #4fa1c9;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    max-width: 20.4rem;
+    margin: 0 auto;
+    margin-top: 2.7rem;
+    height: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #4fa1c9;
+    transition: .5s;
+}
+
+.services-detalis .discover-btn a:hover {
+    background: linear-gradient(to right, #002695, #0066DC, #06D8F7);
+    color: #fff;
+}
+
+
+.service-buttom:hover a {
+    color: #fff;
+}
+
+@media only screen and (min-width:280px) and (max-width:820px) {
+    .services-detalis .service-custom-bg img {
+        margin-left: 18px;
+    }
+
+    .mt-frontend .services-detalis .services-text {
+        margin-left: 25px;
+    }
+}

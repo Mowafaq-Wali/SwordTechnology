@@ -1,0 +1,11 @@
+<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#06d8f7"/>
+      <stop offset="0.508" stop-color="#0066dc"/>
+      <stop offset="1" stop-color="#002695"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_1736" data-name="Rectangle 1736" width="50" height="50" rx="25" fill="url(#linear-gradient)"/>
+  <path id="Icon_ionic-md-call" data-name="Icon ionic-md-call" d="M26.222,20.472a15,15,0,0,1-4.536-.7,1.2,1.2,0,0,0-1.278.319L17.6,22.9a19.215,19.215,0,0,1-8.433-8.434l2.811-2.811a1.332,1.332,0,0,0,.319-1.278,13.9,13.9,0,0,1-.767-4.6A1.282,1.282,0,0,0,10.25,4.5H5.778A1.282,1.282,0,0,0,4.5,5.778,21.7,21.7,0,0,0,26.222,27.5,1.282,1.282,0,0,0,27.5,26.222V21.75A1.282,1.282,0,0,0,26.222,20.472Z" transform="translate(9 9)" fill="#fff"/>
+</svg>
